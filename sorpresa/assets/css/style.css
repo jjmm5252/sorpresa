@@ -1,4 +1,3 @@
-
 body,
 nav {
   background-color: #000000;
@@ -14,7 +13,7 @@ nav {
 nav {
   background-color: transparent;
 }
-#image-background {
+#fondo-background {
   position: fixed;
   top: 0;
   left: 0;
@@ -29,14 +28,15 @@ nav {
   max-width: 150px;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0px 7px 15px, 0 0 25px #d1b529;
+  box-shadow:
+    0px 7px 15px,
+    0 0 25px #d1b529;
   z-index: 1;
   position: relative;
 }
 section {
   filter: drop-shadow(0px 0px 19px #e2e2e2);
 }
-
 
 div::before {
   content: "";
@@ -58,7 +58,7 @@ div::before {
   font-size: 50px;
   margin: 20px;
   color: #ffffff;
-  text-shadow: 0px 0px 20px #50C878;
+  text-shadow: 0px 0px 20px #50c878;
   margin: 0%;
   margin-bottom: -1.2%;
 }
@@ -84,33 +84,33 @@ div::before {
 }
 
 .piso-1 {
-  background-color: #50C878;
+  background-color: #50c878;
   width: 150px;
   height: 60px;
   border-radius: 10px;
   position: relative;
   display: flex;
-  box-shadow: #50C878 0px 7px 15px;
+  box-shadow: #50c878 0px 7px 15px;
 }
 
 .piso-2 {
   position: relative;
   display: flex;
-  background-color: #50C878;
+  background-color: #50c878;
   width: 250px;
   height: 60px;
   border-radius: 10px;
-  box-shadow: #50C878 0px 7px 15px;
+  box-shadow: #50c878 0px 7px 15px;
 }
 
 .piso-3 {
-  background-color: #50C878;
+  background-color: #50c878;
   width: 350px;
   height: 65px;
   border-radius: 10px;
   position: relative;
   display: flex;
-  box-shadow: #50C878 0px 7px 15px;
+  box-shadow: #50c878 0px 7px 15px;
 }
 
 .boton {
@@ -135,23 +135,22 @@ div::before {
   position: relative;
 }
 h1:last-of-type {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 40px;
   color: #ffffff;
   text-align: center;
   /* Brillo suave tipo hada */
-  text-shadow: 0 0 15px rgba(202, 127, 246, 0.7); 
+  text-shadow: 0 0 15px rgba(202, 127, 246, 0.7);
 }
 h2:last-of-type {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 40px;
   color: #ffffff;
   text-align: center;
   /* Brillo suave tipo hada */
-  text-shadow: 0 0 15px rgba(202, 127, 246, 0.7); 
+  text-shadow: 0 0 15px rgba(202, 127, 246, 0.7);
 }
 p {
   font-size: 20px;
   margin: 0;
 }
-
