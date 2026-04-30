@@ -114,12 +114,12 @@ div::before {
 }
 .plato {
   background-color: #ffffff;
-  width: 100%;
+  width: 110%;
   height: 20px;
-  border-radius: 10%;
+  border-radius: 0px 0px 100px 100px;
   position: relative;
   display: flex;
-  box-shadow: #ffffff 0px 7px 15px;
+  box-shadow: #ffffff 0px 7px 15px;;
 }
 .boton {
   background-color: #ca7ff6;
